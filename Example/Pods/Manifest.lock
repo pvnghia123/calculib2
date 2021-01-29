@@ -1,0 +1,16 @@
+PODS:
+  - calculib2 (0.1.0)
+
+DEPENDENCIES:
+  - calculib2 (from `../`)
+
+EXTERNAL SOURCES:
+  calculib2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  calculib2: 7c76d75df60eddcbd608e4161721b5b0ab474fb4
+
+PODFILE CHECKSUM: 13ca21016a81972d895f319dae7bff4ea6477674
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CF72AE6A3E848BD0A6E0CE04E40B6A8 /* Pods-calculib2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712A88299048DF790AD5AE1EDE980 /* Pods-calculib2_Example-dummy.m */; };
+		1518FC96C8D78A0036EB65D5DBC9AF72 /* Pods-calculib2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7410D68D2A4432FAD9713E5C3E9F04 /* Pods-calculib2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26177CFD2C3827CC36018991B03B4A81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		380F24D94991DE2FE37F55BE62793E27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7309BBD26441F4CC2EFA2B3FBDF54261 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C29502B77E0A8237262C89B8B37028 /* ReplaceMe.m */; };
+		9138C77EB12DA87F0C054AFADFD7C955 /* calculib2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 263ED61B2BB104EC82033C3B10E06E87 /* calculib2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95397A18C7FBF3ED50C280C26C218D9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D17F68C316FCBE9C4970338F9D974AAC /* Pods-calculib2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9994B5D972E83DB85137EF93BEF4BBB /* Pods-calculib2_Tests-dummy.m */; };
+		D5B2905525C3D82F003E1C8C /* Caculation.c in Sources */ = {isa = PBXBuildFile; fileRef = D5B2905325C3D82F003E1C8C /* Caculation.c */; };
+		D5B2905625C3D82F003E1C8C /* Caculation.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B2905425C3D82F003E1C8C /* Caculation.h */; };
+		F20F393375D9A172E4E2981483E39A10 /* Pods-calculib2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39259080E28D768DA06C9F9C12C2947B /* Pods-calculib2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7C762462AC972CA71165CDD7A2CFBC2 /* calculib2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD329961E1EA5FA65719DF174D1E529D /* calculib2-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C61A7EFDD407B3A9EC3528D878B21EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273B8FE65D5EE7D5539EE626AECC58C5;
+			remoteInfo = "Pods-calculib2_Example";
+		};
+		AA0E99F4AD37558A04F4A487971E6B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A45785917A7DC16A355C933E6E7E580A;
+			remoteInfo = calculib2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CD401B67FE7F57A8B91D0776026ABF7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		12FC86724950FBC98C3CA850DE3B6EF8 /* calculib2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = calculib2.modulemap; sourceTree = "<group>"; };
+		197367B533B1E34FFA88E59F0D85D4D8 /* calculib2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "calculib2-Info.plist"; sourceTree = "<group>"; };
+		24F59320EC72527D12FEC2D561879956 /* calculib2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "calculib2-prefix.pch"; sourceTree = "<group>"; };
+		263ED61B2BB104EC82033C3B10E06E87 /* calculib2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "calculib2-umbrella.h"; sourceTree = "<group>"; };
+		39259080E28D768DA06C9F9C12C2947B /* Pods-calculib2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-calculib2_Example-umbrella.h"; sourceTree = "<group>"; };
+		3B5712A88299048DF790AD5AE1EDE980 /* Pods-calculib2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-calculib2_Example-dummy.m"; sourceTree = "<group>"; };
+		3D7410D68D2A4432FAD9713E5C3E9F04 /* Pods-calculib2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-calculib2_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4347AB218629CC14CE8AA76C82F61EF7 /* Pods_calculib2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calculib2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD2BC26D3EF9FA0F4F7B176C17140C7 /* Pods-calculib2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-calculib2_Example-frameworks.sh"; sourceTree = "<group>"; };
+		50271E7377B4D27F0B3F1289645BDD27 /* calculib2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = calculib2.release.xcconfig; sourceTree = "<group>"; };
+		52339991EACBA775BE9A046CDD933DFA /* Pods-calculib2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-calculib2_Example.modulemap"; sourceTree = "<group>"; };
+		5A397B580A0780455FC7D5A9E379CB72 /* calculib2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = calculib2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DF57A73F2C229F573CFC9918E44568 /* Pods-calculib2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calculib2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6705F469566B4E9CAE55F234C2FB1633 /* Pods-calculib2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-calculib2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7124EDCF391309D884F6E4534E83D711 /* Pods-calculib2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-calculib2_Tests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8179A24CE853C2FD08D9916D7A25CA3D /* Pods-calculib2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-calculib2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		82F65BDE30DC7260DC7AD5C78D0843BE /* Pods-calculib2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calculib2_Example.release.xcconfig"; sourceTree = "<group>"; };
+		86C29502B77E0A8237262C89B8B37028 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = calculib2/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		8CC5C43F62085299A43188A74E64ADC6 /* calculib2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = calculib2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8DB425074181A9F2BF08FD3ABE85C334 /* calculib2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = calculib2.debug.xcconfig; sourceTree = "<group>"; };
+		9B32682CA91474F525CDC7CBCBCCBA43 /* Pods-calculib2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calculib2_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2E30760194E2BC1F12EF4394B241277 /* Pods-calculib2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calculib2_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A95DB544D48E652B9BC8F36A48562ECB /* Pods-calculib2_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-calculib2_Example-Info.plist"; sourceTree = "<group>"; };
+		AE2B4E2E6B7DD22EE6D6F19818B66399 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B0E61037EBDDAD28F57B6680562B8A69 /* Pods-calculib2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-calculib2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9994B5D972E83DB85137EF93BEF4BBB /* Pods-calculib2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-calculib2_Tests-dummy.m"; sourceTree = "<group>"; };
+		CA849F82EDBC74E88E173431D16395A9 /* Pods-calculib2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-calculib2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5B2905325C3D82F003E1C8C /* Caculation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Caculation.c; sourceTree = "<group>"; };
+		D5B2905425C3D82F003E1C8C /* Caculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caculation.h; sourceTree = "<group>"; };
+		DB5657B6979467B30A5D250CD76DDBA6 /* Pods_calculib2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calculib2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4FAF7A26709B382B6825C377C5C6DE /* Pods-calculib2_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-calculib2_Tests-Info.plist"; sourceTree = "<group>"; };
+		FD329961E1EA5FA65719DF174D1E529D /* calculib2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "calculib2-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A04B94F275685A60C404F7419667BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380F24D94991DE2FE37F55BE62793E27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D26C14D7B55998470B5BFD0A35965F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26177CFD2C3827CC36018991B03B4A81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6038BA180D988B6E8A27A77F7C7B1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95397A18C7FBF3ED50C280C26C218D9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0119891A68411E1D70B83FF25DC54E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A397B580A0780455FC7D5A9E379CB72 /* calculib2.framework */,
+				4347AB218629CC14CE8AA76C82F61EF7 /* Pods_calculib2_Example.framework */,
+				DB5657B6979467B30A5D250CD76DDBA6 /* Pods_calculib2_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		020AC6358FD0DB9E4B9961EE08821974 /* Pods-calculib2_Example */ = {
+			isa = PBXGroup;
+			children = (
+				52339991EACBA775BE9A046CDD933DFA /* Pods-calculib2_Example.modulemap */,
+				CA849F82EDBC74E88E173431D16395A9 /* Pods-calculib2_Example-acknowledgements.markdown */,
+				6705F469566B4E9CAE55F234C2FB1633 /* Pods-calculib2_Example-acknowledgements.plist */,
+				3B5712A88299048DF790AD5AE1EDE980 /* Pods-calculib2_Example-dummy.m */,
+				4FD2BC26D3EF9FA0F4F7B176C17140C7 /* Pods-calculib2_Example-frameworks.sh */,
+				A95DB544D48E652B9BC8F36A48562ECB /* Pods-calculib2_Example-Info.plist */,
+				39259080E28D768DA06C9F9C12C2947B /* Pods-calculib2_Example-umbrella.h */,
+				9B32682CA91474F525CDC7CBCBCCBA43 /* Pods-calculib2_Example.debug.xcconfig */,
+				82F65BDE30DC7260DC7AD5C78D0843BE /* Pods-calculib2_Example.release.xcconfig */,
+			);
+			name = "Pods-calculib2_Example";
+			path = "Target Support Files/Pods-calculib2_Example";
+			sourceTree = "<group>";
+		};
+		2AC361DC2E31D593B5EAA26C3B0268CD /* Pods-calculib2_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7124EDCF391309D884F6E4534E83D711 /* Pods-calculib2_Tests.modulemap */,
+				B0E61037EBDDAD28F57B6680562B8A69 /* Pods-calculib2_Tests-acknowledgements.markdown */,
+				8179A24CE853C2FD08D9916D7A25CA3D /* Pods-calculib2_Tests-acknowledgements.plist */,
+				B9994B5D972E83DB85137EF93BEF4BBB /* Pods-calculib2_Tests-dummy.m */,
+				FA4FAF7A26709B382B6825C377C5C6DE /* Pods-calculib2_Tests-Info.plist */,
+				3D7410D68D2A4432FAD9713E5C3E9F04 /* Pods-calculib2_Tests-umbrella.h */,
+				65DF57A73F2C229F573CFC9918E44568 /* Pods-calculib2_Tests.debug.xcconfig */,
+				A2E30760194E2BC1F12EF4394B241277 /* Pods-calculib2_Tests.release.xcconfig */,
+			);
+			name = "Pods-calculib2_Tests";
+			path = "Target Support Files/Pods-calculib2_Tests";
+			sourceTree = "<group>";
+		};
+		2F64303D061FF27AD59BE1730E75DEBF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D5B2905125C3D7E4003E1C8C /* Classes */,
+				8CC5C43F62085299A43188A74E64ADC6 /* calculib2.podspec */,
+				AE2B4E2E6B7DD22EE6D6F19818B66399 /* LICENSE */,
+				0CD401B67FE7F57A8B91D0776026ABF7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		661AF03A65A596184E9F19B5EDB18673 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				020AC6358FD0DB9E4B9961EE08821974 /* Pods-calculib2_Example */,
+				2AC361DC2E31D593B5EAA26C3B0268CD /* Pods-calculib2_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		808BB6807DBB1C6692BFF8441D2F3212 /* calculib2 */ = {
+			isa = PBXGroup;
+			children = (
+				86C29502B77E0A8237262C89B8B37028 /* ReplaceMe.m */,
+				2F64303D061FF27AD59BE1730E75DEBF /* Pod */,
+				F998FCF60D8B70D9B9206009DC61910D /* Support Files */,
+			);
+			name = calculib2;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		81C8082E5DEBEDD3B64156BB2D36F5E6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				808BB6807DBB1C6692BFF8441D2F3212 /* calculib2 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				81C8082E5DEBEDD3B64156BB2D36F5E6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0119891A68411E1D70B83FF25DC54E9A /* Products */,
+				661AF03A65A596184E9F19B5EDB18673 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5B2905125C3D7E4003E1C8C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D5B2905325C3D82F003E1C8C /* Caculation.c */,
+				D5B2905425C3D82F003E1C8C /* Caculation.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F998FCF60D8B70D9B9206009DC61910D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12FC86724950FBC98C3CA850DE3B6EF8 /* calculib2.modulemap */,
+				FD329961E1EA5FA65719DF174D1E529D /* calculib2-dummy.m */,
+				197367B533B1E34FFA88E59F0D85D4D8 /* calculib2-Info.plist */,
+				24F59320EC72527D12FEC2D561879956 /* calculib2-prefix.pch */,
+				263ED61B2BB104EC82033C3B10E06E87 /* calculib2-umbrella.h */,
+				8DB425074181A9F2BF08FD3ABE85C334 /* calculib2.debug.xcconfig */,
+				50271E7377B4D27F0B3F1289645BDD27 /* calculib2.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/calculib2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3981488838439E7E79331DADDF672257 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9138C77EB12DA87F0C054AFADFD7C955 /* calculib2-umbrella.h in Headers */,
+				D5B2905625C3D82F003E1C8C /* Caculation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF100DB04C3EB4D8D0F4ED462A56FA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20F393375D9A172E4E2981483E39A10 /* Pods-calculib2_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF24B5EC9656F1F3EA436F97C3F92001 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1518FC96C8D78A0036EB65D5DBC9AF72 /* Pods-calculib2_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		273B8FE65D5EE7D5539EE626AECC58C5 /* Pods-calculib2_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0ADCC4255DED69413E4DBDBC76FD6F7 /* Build configuration list for PBXNativeTarget "Pods-calculib2_Example" */;
+			buildPhases = (
+				8CF100DB04C3EB4D8D0F4ED462A56FA2 /* Headers */,
+				5CA5D2A91AF178C768E4D1E0E32F7558 /* Sources */,
+				2A04B94F275685A60C404F7419667BCE /* Frameworks */,
+				8A64239B650677515198BF83062253AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				748095DD6D1B9360EA3ABA4C1B1C62DC /* PBXTargetDependency */,
+			);
+			name = "Pods-calculib2_Example";
+			productName = "Pods-calculib2_Example";
+			productReference = 4347AB218629CC14CE8AA76C82F61EF7 /* Pods_calculib2_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96BADEDB7DDB0A64F024629D9E181A3D /* Pods-calculib2_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9839335D75EA7CF901DE9DD8845C2DCA /* Build configuration list for PBXNativeTarget "Pods-calculib2_Tests" */;
+			buildPhases = (
+				BF24B5EC9656F1F3EA436F97C3F92001 /* Headers */,
+				6823697E9AEB86AD9A38CF0972EB3F18 /* Sources */,
+				6D26C14D7B55998470B5BFD0A35965F4 /* Frameworks */,
+				44BBE3644D1521444AC383C8245CCACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2F06E770FEC58DCB29B09B90B40CD9F /* PBXTargetDependency */,
+			);
+			name = "Pods-calculib2_Tests";
+			productName = "Pods-calculib2_Tests";
+			productReference = DB5657B6979467B30A5D250CD76DDBA6 /* Pods_calculib2_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A45785917A7DC16A355C933E6E7E580A /* calculib2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3357E48375BC27E89E352421F568A3 /* Build configuration list for PBXNativeTarget "calculib2" */;
+			buildPhases = (
+				3981488838439E7E79331DADDF672257 /* Headers */,
+				703CB117E36FCF05816A255755D74F81 /* Sources */,
+				F6038BA180D988B6E8A27A77F7C7B1C2 /* Frameworks */,
+				B764C6036F3A81B7A71280104094A433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = calculib2;
+			productName = calculib2;
+			productReference = 5A397B580A0780455FC7D5A9E379CB72 /* calculib2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0119891A68411E1D70B83FF25DC54E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A45785917A7DC16A355C933E6E7E580A /* calculib2 */,
+				273B8FE65D5EE7D5539EE626AECC58C5 /* Pods-calculib2_Example */,
+				96BADEDB7DDB0A64F024629D9E181A3D /* Pods-calculib2_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44BBE3644D1521444AC383C8245CCACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A64239B650677515198BF83062253AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B764C6036F3A81B7A71280104094A433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CA5D2A91AF178C768E4D1E0E32F7558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF72AE6A3E848BD0A6E0CE04E40B6A8 /* Pods-calculib2_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6823697E9AEB86AD9A38CF0972EB3F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17F68C316FCBE9C4970338F9D974AAC /* Pods-calculib2_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703CB117E36FCF05816A255755D74F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C762462AC972CA71165CDD7A2CFBC2 /* calculib2-dummy.m in Sources */,
+				7309BBD26441F4CC2EFA2B3FBDF54261 /* ReplaceMe.m in Sources */,
+				D5B2905525C3D82F003E1C8C /* Caculation.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		748095DD6D1B9360EA3ABA4C1B1C62DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = calculib2;
+			target = A45785917A7DC16A355C933E6E7E580A /* calculib2 */;
+			targetProxy = AA0E99F4AD37558A04F4A487971E6B57 /* PBXContainerItemProxy */;
+		};
+		F2F06E770FEC58DCB29B09B90B40CD9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-calculib2_Example";
+			target = 273B8FE65D5EE7D5539EE626AECC58C5 /* Pods-calculib2_Example */;
+			targetProxy = 3C61A7EFDD407B3A9EC3528D878B21EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		88FE17D4C3161DC4A9B412D4484F548A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50271E7377B4D27F0B3F1289645BDD27 /* calculib2.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/calculib2/calculib2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/calculib2/calculib2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/calculib2/calculib2.modulemap";
+				PRODUCT_MODULE_NAME = calculib2;
+				PRODUCT_NAME = calculib2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A21CEB274D37B460611417766321DCD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B32682CA91474F525CDC7CBCBCCBA43 /* Pods-calculib2_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-calculib2_Example/Pods-calculib2_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calculib2_Example/Pods-calculib2_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9768CF519523CB5AA06DB5D35751B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E30760194E2BC1F12EF4394B241277 /* Pods-calculib2_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-calculib2_Tests/Pods-calculib2_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calculib2_Tests/Pods-calculib2_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DBCCC64D53FECCE33505E7CE51651B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB425074181A9F2BF08FD3ABE85C334 /* calculib2.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/calculib2/calculib2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/calculib2/calculib2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/calculib2/calculib2.modulemap";
+				PRODUCT_MODULE_NAME = calculib2;
+				PRODUCT_NAME = calculib2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E082490961D2FEDEE006789B3006C720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65DF57A73F2C229F573CFC9918E44568 /* Pods-calculib2_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-calculib2_Tests/Pods-calculib2_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calculib2_Tests/Pods-calculib2_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E233876C9923B36A2A4B5B8BB3C23F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F65BDE30DC7260DC7AD5C78D0843BE /* Pods-calculib2_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-calculib2_Example/Pods-calculib2_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calculib2_Example/Pods-calculib2_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9839335D75EA7CF901DE9DD8845C2DCA /* Build configuration list for PBXNativeTarget "Pods-calculib2_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E082490961D2FEDEE006789B3006C720 /* Debug */,
+				A9768CF519523CB5AA06DB5D35751B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0ADCC4255DED69413E4DBDBC76FD6F7 /* Build configuration list for PBXNativeTarget "Pods-calculib2_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21CEB274D37B460611417766321DCD4 /* Debug */,
+				E233876C9923B36A2A4B5B8BB3C23F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3357E48375BC27E89E352421F568A3 /* Build configuration list for PBXNativeTarget "calculib2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCCC64D53FECCE33505E7CE51651B9A /* Debug */,
+				88FE17D4C3161DC4A9B412D4484F548A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

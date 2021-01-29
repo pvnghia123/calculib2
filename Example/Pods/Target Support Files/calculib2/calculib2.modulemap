@@ -1,0 +1,6 @@
+framework module calculib2 {
+  umbrella header "calculib2-umbrella.h"
+
+  export *
+  module * { export * }
+}
